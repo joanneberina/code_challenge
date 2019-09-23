@@ -39,6 +39,7 @@ nav #nav-menu li {
 .hero .uvp h1 {
   font-size: 3.5rem;
   margin: 1rem auto;
+  color: #22262A;
 }
 .hero .uvp p {
   line-height: 2rem;
@@ -46,9 +47,11 @@ nav #nav-menu li {
 }
 @media (min-width: 800px) {
   .hero {
+    margin: 0 auto;
     flex-direction: row;
   }
   .hero .profile-photo {
     align-self: flex-start;
+    margin-right: 3rem;
   }
 }
